@@ -121,3 +121,14 @@ var john = {
 
 john.calcAge();
 console.log(john);
+
+/***************************
+ * Loops and iteration
+ */
+
+var john = ['John', 'Smith', 1990, 'teacher', false, 'blue'];
+
+for (var index = 0; index < john.length; index++) {
+    if(typeof john[index] !== 'string') continue;    
+    console.log(john[index]);   
+ }
